@@ -1,0 +1,14 @@
+input, img {
+    opacity: 0;
+}
+
+#inputDiv {
+    border-radius: 8px;
+    background-color: white;
+    border-color: black;
+    border-style: dotted;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
