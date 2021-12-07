@@ -1,0 +1,1 @@
+export const COURSE = 491.71;
