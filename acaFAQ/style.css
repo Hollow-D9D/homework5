@@ -1,0 +1,40 @@
+.question, .answer {
+    margin: 10px;
+}
+
+.question {
+    font-size: 26px;
+    font-style: oblique;
+}
+
+.answer {
+    display: none;
+}
+
+.container {
+    margin-bottom: 40px;
+    border-color :lightgray;
+    border-style: solid;
+    width: fit-content;
+    height: fit-content;
+    border: 2px;
+    border-color: black;
+}
+
+#faqHeader {
+    flex-shrink: 0;
+    color: blanchedalmond;
+    width: 18%;
+    max-width: 18%;
+    display: block;
+    background-color: rgb(168, 167, 241);
+}
+
+h2 {
+    padding: 10%;
+}
+
+body {
+    display: flex;
+    background-color: blanchedalmond;
+}
