@@ -2,6 +2,7 @@ import { closeExcept } from "./helpers/closeExcept.js";
 
 const questionDivArray = document.getElementsByClassName("question");
 const answerDivArray = document.getElementsByClassName("answer");
+let selected = 'none';
 
 for(let i = 0; i < 11; i++) {
     questionDivArray[i].addEventListener("mouseover", () => {
@@ -11,6 +12,7 @@ for(let i = 0; i < 11; i++) {
         questionDivArray[i].style.color = "black";
     })
     questionDivArray[i].addEventListener("click", () => {
-        closeExcept(i, answerDivArray);
+        closeExcept(i, selected, answerDivArray);
+        selected = i;
     })
 }
